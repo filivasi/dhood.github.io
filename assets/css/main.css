@@ -531,7 +531,7 @@
 	@media screen and (max-width: 736px) {
 
 		.row > * {
-			padding: 15px 0 0 15px;
+			padding: 0px 0 0 15px;
 		}
 
 		.row {
@@ -1018,7 +1018,8 @@ text-decoration:none;
 }
 */
 .awardslist header, article, ul {
-	margin-bottom: 0em;
+	margin:0;
+	padding: 0;
 }
 
 .awardslist .special {
@@ -1692,6 +1693,13 @@ text-decoration:none;
 
 				#me header > p {
 					font-size: 1.25em;
+				}
+
+				.hideonmobile {
+					visibility: hidden;	
+    				display: none;
+    				margin: 0;
+    				padding: 0;
 				}
 
 		/* Footer */
