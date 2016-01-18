@@ -1014,13 +1014,12 @@ text-decoration:none;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
 }
-/*
-.awardslist article:nth-child(odd) li { 
 
-		background-color: #888888;
-		color: #000000;
+.positionlist li:nth-child(odd), .courselist li:nth-child(odd) { 
+
+		color: #424242;
 }
-*/
+
 .awardslist header, article, ul {
 	margin:0;
 	padding: 0;
