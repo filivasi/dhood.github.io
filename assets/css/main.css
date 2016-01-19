@@ -812,6 +812,7 @@
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
+
 	a:not(.icon){
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -1630,6 +1631,11 @@
 					}
 
 
+			#resumediv {
+				width: 40em;
+				height: 55em;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -1784,6 +1790,11 @@
     				margin: 0;
     				padding: 0;
 				}
+
+			#resumediv {
+				width: 30em;
+				height: 45em;
+			}
 
 		/* Footer */
 
