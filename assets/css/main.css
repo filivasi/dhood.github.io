@@ -813,8 +813,18 @@
 		margin-bottom: 2em;
 	}
 	a {
-		color: #777777;
-		text-decoration: underline;
+		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		color: #ccc;
+		text-decoration: none;
+	}
+
+	a:hover {
+		border-bottom-color: transparent;
+		color: #ccc !important;
 	}
 
 /* Table */
@@ -948,6 +958,9 @@
 				width: auto;
 			}
 
+
+
+
 #home .icon {
 	color:#009193;
 }
@@ -1027,6 +1040,70 @@ text-decoration:none;
 
 .awardslist .special {
 	opacity:0.8;
+}
+
+#news p {
+	margin-bottom: 0.5em;
+	font-size: 0.75em;
+}
+
+#news a {
+	text-decoration: none;
+}
+	
+#news .special{
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	text-decoration: none;
+	border-bottom: 0;
+	display: block;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin: 0 0 0.5em 0;
+	text-align: right;
+	color: #999;
+}
+
+#news .special:before {
+
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	color: #ccc;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+#news .special:before {
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	border-radius: 100%;
+	border: solid 1px #009193;
+	content: '\f105';
+	display: inline-block;
+	font-size: 1.25em;
+	height: 2em;
+	line-height: 1.65em;
+	margin-right: 0.85em;
+	text-align: center;
+	text-indent: 0.15em;
+	vertical-align: middle;
+	width: 2em;
+}
+
+#news .thumbnail:hover .special:before {
+	background-color: rgba(138, 197, 198, 0.25);
+
+}
+#news .thumbnail:hover .special {
+
+	color: #ccc;
 }
 
 /* Button */
