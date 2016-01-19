@@ -78,7 +78,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					<div class="4u ">
 
 
-						<a href="#work" class="jumplink pic">
+						<a href="#work" class="jumplink pic hideonmobile">
 							<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
 						</a>
 					</div>
@@ -87,7 +87,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			</article>
 
 			<!-- Work -->
-			<article id="work" class="panel" style="padding-top:1em">
+			<article id="work" class="panel" style="padding-top:1em; padding-bottom:1em;">
 			</header>
 			<div class="bootstrap-wrapper">		
 
@@ -1032,7 +1032,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					columnWidth: '.galleryitem'
 				});
 
-				window.dispatchEvent(new Event('resize')); // hack because wasn't displaying properly
+				window.dispatchEvent(new Event('resize')); // hack because media gallery wasn't displaying properly
+			});
+
+			$(function() {
+			    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+					e.target // activated tab
+					e.relatedTarget // previous tab
+
+					window.dispatchEvent(new Event('resize')); // hack because tabs' lengths weren't dynamic 
+
+				});
 			});
 
 		</script>
