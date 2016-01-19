@@ -966,10 +966,15 @@
 	color:#009193;
 }
 
+.imagewrap {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 0.0em;
+}
 
 .sidebyside li {
 			display: inline-block;
-			font-size: 0.7em;
+			font-size: 0.8em;
 		}
 
 .sidebyside li:before {
@@ -999,6 +1004,7 @@
 .contentdetails {
 	font-size: 0.85em;
 				line-height: 1.9em;
+				text-align: justify;
 }
 
 .courselist {
