@@ -1003,10 +1003,27 @@
 	margin-bottom: 0.5em;
 }
 
+#projects h3 {
+	margin-top: 1em;
+}
 .contentdetails {
 	font-size: 0.85em;
 				line-height: 1.9em;
 				text-align: justify;
+				margin-bottom: 0.5em;
+}
+
+.project-award-details {
+	font-size: 0.85em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.project-award-details .icon{
+
+	color:#009193;
+	padding-right: 0.25em;
+	padding-left: 0.25em;
+
 }
 
 .courselist {
