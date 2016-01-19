@@ -1049,6 +1049,7 @@ text-decoration:none;
 
 #news a {
 	text-decoration: none;
+	word-wrap: break-word;
 }
 	
 #news .special{
@@ -1088,13 +1089,13 @@ text-decoration:none;
 	content: '\f105';
 	display: inline-block;
 	font-size: 1.25em;
-	height: 2em;
-	line-height: 1.65em;
+	height: 1.5em;
+	line-height: 1.4em;
 	margin-right: 0.85em;
 	text-align: center;
 	text-indent: 0.15em;
 	vertical-align: middle;
-	width: 2em;
+	width: 1.5em;
 }
 
 #news .thumbnail:hover .special:before {
