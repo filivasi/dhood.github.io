@@ -88,7 +88,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 			<!-- Work -->
 			<article id="work" class="panel" style="padding-top:1em; padding-bottom:1em;">
-			</header>
+			
 			<div class="bootstrap-wrapper">		
 
 				<ul class="nav nav-tabs nav-justified">
@@ -1057,6 +1057,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				});
 			});
 
+		</script>
+
+		<script>
+			$('#nav a[href="#news"]').click( function() { 
+				console.log('sadf')
+				setTimeout(expandGallery, 1000);
+				return false; 
+			} );
+
+			expandGallery = function() {
+				window.dispatchEvent(new Event('resize'));
+				setTimeout(resizePage, 100);
+			}
+
+			resizePage = function() {
+				$('#main').animate({height: $("#news").outerHeight()});
+			}
 		</script>
 
 
