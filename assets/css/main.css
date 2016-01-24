@@ -992,7 +992,7 @@
 
 .sidebyside .icon {
 	color:#009193;
-	padding-right: 0.25em;
+	padding-right: 0.55em;
 	padding-left: 0.25em;
 }
 .sidebyside a {
@@ -1003,7 +1003,7 @@
 	margin-bottom: 0.5em;
 }
 
-#projects h3 {
+#projects h3, #personal h3 {
 	margin-top: 1em;
 }
 .contentdetails {
@@ -1133,6 +1133,34 @@
 #news .thumbnail:hover .special {
 
 	color: #ccc;
+}
+
+#travel h4 {
+	color: #009193;
+	opacity: 0.6;
+}
+
+.countrieslist li {
+	width:100%;
+	font-size: 0.7em;
+	line-height: 1.8em;
+	margin-bottom: 0.4em;
+	cursor: auto;
+	display: inline-block;
+	background-color: rgba(100,100,100,0.1);
+	color: #333;
+	border: 0;
+	border-radius: 5px;
+	outline: 0;
+	text-align: center;
+}
+
+.countrieslist .firsttime {
+	background-color: rgba(100,100,100,0.3);
+}
+
+.countrieslist .onemonth {
+	font-weight: 900; 
 }
 
 /* Button */
@@ -1647,6 +1675,12 @@
 						padding-right: 0.25em;
 					}
 
+			.hideondesktop {
+				visibility: hidden;	
+				display: none;
+				margin: 0;
+				padding: 0;
+			}
 
 			#resumediv {
 				width: 40em;
