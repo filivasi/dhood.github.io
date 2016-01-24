@@ -1709,12 +1709,17 @@
 			}
 
 			h1, h2 {
-				font-size: 1.25em;
+				font-size: 1.45em;
 				letter-spacing: -0.025em;
 			}
 
-			h3, h4, h5, h6 {
+			h3 {
+
 				font-size: 1.25em;
+				letter-spacing: -0.025em;
+			}
+			h4, h5, h6 {
+				font-size: 1.05em;
 				letter-spacing: -0.025em;
 			}
 
