@@ -1530,6 +1530,8 @@
 				width: 45em;
 				margin: 0 auto;
 				opacity: 0.00001;
+				padding-top: 45px;
+				padding-bottom: 30px;
 			}
 
 				#wrapper.tall {

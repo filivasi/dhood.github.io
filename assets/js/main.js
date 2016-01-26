@@ -78,9 +78,7 @@
 					$body._reposition = function() {
 						if (skel.vars.touch && (window.orientation == 0 || window.orientation == 180))
 							$wrapper.css('padding-top', Math.max((($window.height() - (panels[activePanelId].outerHeight() + $footer.outerHeight())) / 2) - $nav.height(), 30) + 'px');
-						else
-							$wrapper.css('padding-top', ((($window.height() - panels[firstPanelId].height()) / 2) - $nav.height()) + 'px');
-					};
+						};
 
 				// Panels.
 					$panels.each(function(i) {
@@ -122,11 +120,6 @@
 										panels[id].outerHeight() +
 										$nav.outerHeight() +
 										$footer.outerHeight();
-
-								if (x > $window.height())
-									$wrapper.addClass('tall');
-								else
-									$wrapper.removeClass('tall');
 
 							// Fade out active panel.
 								$footer.fadeTo(settings.fadeSpeed, 0.0001);
