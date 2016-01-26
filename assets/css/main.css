@@ -964,8 +964,30 @@
 	color:#009193;
 }
 
-#home .icon {
-	color:#009193;
+#me .bordered_outer {
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	border-color: #333;
+	padding: 3px 0 3px 0;
+	margin-bottom: 4em;
+	display: inline-block;
+}
+
+#me .bordered_inner {
+	border-bottom: solid 2px;
+	border-top: solid 2px;
+	padding: 15px 10px 15px 10px;
+	margin: 0;
+	font-size: 2.6em;
+	display: inline-block;
+}
+
+.spacer:before{
+	color: #ccc;
+	display: inline;
+	content: '\2022';
+	opacity: 0.8;
+	padding: 0 0.85em 0 0.85em;
 }
 
 .imagewrap {
@@ -1149,7 +1171,6 @@
 	display: inline-block;
 	background-color: rgba(100,100,100,0.1);
 	color: #333;
-	border: 0;
 	border-radius: 5px;
 	outline: 0;
 	text-align: center;
@@ -1161,6 +1182,7 @@
 
 .countrieslist .onemonth {
 	font-weight: 900; 
+	border: solid 1px rgba(0, 0, 0, 0.15);
 }
 
 /* Button */
