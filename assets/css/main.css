@@ -982,6 +982,10 @@
 	display: inline-block;
 }
 
+#me {
+	padding-bottom: 3.5em;
+}
+
 .spacer:before{
 	color: #ccc;
 	display: inline;
@@ -1629,7 +1633,7 @@
 			}
 
 			.panel {
-				padding: 3.5em 2.5em 3.5em 2.5em;
+				padding: 2.5em 2.5em 2em 2.5em;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -1640,7 +1644,6 @@
 				#me h1 {
 					padding-top: 50%;
 				}
-
 				
 
 				#me .pic {
