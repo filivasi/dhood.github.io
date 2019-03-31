@@ -962,6 +962,7 @@
 
 .nav-tabs a{
 	color:#009193;
+	display: block;
 }
 
 #me .bordered_outer {
