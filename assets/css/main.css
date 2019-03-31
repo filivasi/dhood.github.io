@@ -1415,19 +1415,23 @@
 				color: white;
 			}
 
-		#footer .copyright li {
+		#footer li {
 			display: inline-block;
 		}
 
-			#footer .copyright li:before {
+			#footer li:before {
 				display: inline;
 				content: '\2022';
 				opacity: 0.5;
 				padding: 0 0.75em 0 0.75em;
 			}
 
-			#footer .copyright li:first-child:before {
+			#footer li:first-child:before {
 				display: none;
+			}
+
+			#footer .contact li {
+				font-size: 1.75em;
 			}
 
 /* Desktop */
@@ -1870,16 +1874,11 @@
 
 			#footer {
 				text-align: center;
-				padding: 2em 0 0 0;
-				font-size: 0.85em;
+				padding: 1em 0 0 0;
+				font-size: 1.75em;
 			}
 
-				#footer .copyright li {
-					display: block;
-				}
-
-					#footer .copyright li:before {
-						display: none;
-					}
-
+			#footer ul {
+				padding: 0 0 1em 0;
+			}
 	}
