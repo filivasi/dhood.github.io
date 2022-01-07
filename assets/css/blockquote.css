@@ -34,11 +34,19 @@
     right: 30px;
 }
 
-/* increase header size after 600px */
-@media all and (min-width: 600px) {
-    .blockquote h1 {
-        font-size: 10px;
-   }
+/* decrease double quotes size for narrow/mobile widths */
+@media all and (max-width: 736px) {
+
+    .blockquote {
+        padding: 15px 0;
+        margin: 25px auto;
+
+    }
+
+    .blockquote:after {
+        font-size: 6rem;
+        bottom: -25px;
+    }
 
 }
 
