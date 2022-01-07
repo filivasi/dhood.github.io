@@ -1185,6 +1185,13 @@
 	border: solid 1px rgba(0, 0, 0, 0.15);
 }
 
+#tutoringservices {
+	font-size: 0.85em;
+    line-height: 120%;
+
+}
+
+
 /* Button */
 
 	input[type="button"],
