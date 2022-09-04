@@ -1201,6 +1201,13 @@
 }
 
 
+#speakinghighlights .contentdetails {
+	font-size: 0.85em;
+				line-height: 1.2em;
+				text-align: justify;
+				margin-bottom: 0.5em;
+}
+
 /* Button */
 
 	input[type="button"],
