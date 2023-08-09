@@ -768,7 +768,7 @@
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: #ffffff;
 	}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
@@ -1217,8 +1217,10 @@
 	.button {
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #666666;
+		background-color: #1d94a8;
 		color: #ffffff;
+		font-size: 26px;
+		font-color: white;
 		border: 0;
 		border-radius: 5px;
 		cursor: pointer;
@@ -1234,7 +1236,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: #106574;
 		}
 
 		input[type="button"]:active,
