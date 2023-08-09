@@ -765,7 +765,7 @@
 			animation: none !important;
 		}
 
-	input, textarea, select {
+	input:not(.email), textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #ffffff;
